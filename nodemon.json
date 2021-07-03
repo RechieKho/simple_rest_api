@@ -1,0 +1,12 @@
+{
+    "verbose": true,
+    "ignore": ["node_module/", "dist/"],
+    "watch": ["src/", ".env"],
+    "execMap": {
+        "ts": "node -r ts-node/register"
+    },
+    "env": {
+        "NODE_ENV": "development"
+    },
+    "ext": "ts"
+}
